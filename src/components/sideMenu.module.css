@@ -1,7 +1,7 @@
 .sideMenu {
     position: relative;
     width: 300px;
-    height: 100vh;
+    min-height: 100vh;
     background-color: #17181D;
     color: #A98567;
     font-size: 18px;
@@ -18,12 +18,18 @@
     width: 182px;
 }
 
+.sideMenuMiddle {
+    padding-bottom: 39px;
+    border-bottom: 1px solid rgba(147, 127, 111, 0.3);
+}
+
 .phoneMenuContainer {
     display: flex;
     align-items: center;
     gap: 15px;
     margin: 25px auto 26px auto;
     width: 182px;
+    color: #FFF4DE;
 }
 
 .sideMenuListContainer {
@@ -32,4 +38,43 @@
     display: grid;
     align-items: center;
     text-align: left;
+}
+
+.sideMenuListContainer p {
+    margin: 16px 0;
+}
+
+.sideMenuBottom {
+    padding: 30px 30px 0 30px;
+}
+
+.menuFind {
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    height: 50px;
+    border: 1px solid rgba(169, 133, 103, 0.5);
+    border-radius: 3px;
+}
+
+.menuFind input {
+    font-size: 15px;
+    width: 180px;
+    border: none;
+    background-color: #17181D;
+}
+
+.menuFind input::placeholder {
+    color: #A98567;
+}
+
+.sideMenuCallButton {
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0 30px 0;
+    height: 50px;
+    background-color: rgba(169, 133, 103, 0.3);
+    border-radius: 3px;
 }
