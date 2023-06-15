@@ -1,0 +1,17 @@
+.mainPageTop {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    height: 777px;
+    margin-left: 300px;
+    background-color: #00AC78;
+}
+
+.mainPageTopImg {
+    background: url(../../public/imgs/content/MainPageUpper.svg) no-repeat;
+    background: ;
+}
+
+.mainPageTopInfo {
+    position: absolute;
+}

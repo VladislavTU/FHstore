@@ -1,80 +1,108 @@
 .sideMenu {
-    position: relative;
-    width: 300px;
-    min-height: 100vh;
-    background-color: #17181D;
-    color: #A98567;
-    font-size: 18px;
-    font-weight: 700;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 300px;
+  min-height: 100vh;
+  background-color: #17181d;
+  color: #a98567;
+  font-size: 18px;
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1;
 }
 
 .menuLogoContainer {
-    padding-top: 38px;
-    padding-bottom: 38px;
-    border-bottom: 1px solid rgba(147, 127, 111, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 146px;
+  border-bottom: 1px solid rgba(147, 127, 111, 0.3);
 }
 
 .menuLogo {
-    width: 182px;
+  width: 182px;
 }
 
 .sideMenuMiddle {
-    padding-bottom: 39px;
-    border-bottom: 1px solid rgba(147, 127, 111, 0.3);
+  padding: 39px 0;
+  border-bottom: 1px solid rgba(147, 127, 111, 0.3);
 }
 
 .phoneMenuContainer {
-    display: flex;
-    align-items: center;
-    gap: 15px;
-    margin: 25px auto 26px auto;
-    width: 182px;
-    color: #FFF4DE;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 39px;
+  color: #fff4de;
+}
+
+.phoneMenuContainer p {
+    margin: 0;
 }
 
 .sideMenuListContainer {
-    width: 207px;
-    margin: 0 auto 0 57px;
-    display: grid;
-    align-items: center;
-    text-align: left;
+  width: 207px;
+  margin: 0 auto 0 57px;
+  display: grid;
+  align-items: center;
+  text-align: left;
 }
 
 .sideMenuListContainer p {
-    margin: 16px 0;
+  margin: 14px 0;
 }
 
 .sideMenuBottom {
-    padding: 30px 30px 0 30px;
+  padding: 30px 30px 0 30px;
 }
 
 .menuFind {
-    display: flex;
-    align-items: center;
-    padding: 0 20px;
-    height: 50px;
-    border: 1px solid rgba(169, 133, 103, 0.5);
-    border-radius: 3px;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  height: 48px;
+  border: 1px solid rgba(169, 133, 103, 0.5);
+  border-radius: 3px;
 }
 
 .menuFind input {
-    font-size: 15px;
-    width: 180px;
-    border: none;
-    background-color: #17181D;
+  font-size: 15px;
+  width: 180px;
+  border: none;
+  background-color: #17181d;
+  color: #fff4de;
+  outline: none;
 }
 
 .menuFind input::placeholder {
-    color: #A98567;
+  color: #a98567;
 }
 
 .sideMenuCallButton {
-    font-size: 15px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 20px 0 30px 0;
-    height: 50px;
-    background-color: rgba(169, 133, 103, 0.3);
-    border-radius: 3px;
+  font-size: 15px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0 30px 0;
+  height: 50px;
+  background-color: rgba(169, 133, 103, 0.3);
+  border-radius: 3px;
+}
+
+.sideMenuSocial {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  margin-bottom: 22px;
+}
+
+.sideMenuInfoDocs p {
+  font-size: 12px;
+  margin-bottom: 16px;
+  color: rgba(169, 133, 103, 0.5);
+  font-weight: 500;
 }

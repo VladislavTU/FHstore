@@ -30,12 +30,12 @@ function SideMenu() {
         <div className={styles.sideMenuCallButton}>
           <p>Заказать звонок</p>
         </div>
-        <div>
+        <div className={styles.sideMenuSocial}>
           <img src="./imgs/instagram.svg" alt="instagram" />
           <img src="./imgs/vk.svg" alt="vk" />
           <img src="./imgs/facebook.svg" alt="facebook" />
         </div>
-        <div>
+        <div className={styles.sideMenuInfoDocs}>
           <p>Пользовательское соглашение</p>
           <p>Политика конфиденциальности</p>
         </div>
