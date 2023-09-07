@@ -1,17 +1,60 @@
 .mainPageTop {
-    position: relative;
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    height: 777px;
-    margin-left: 300px;
-    background-color: #00AC78;
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  height: 777px;
+  margin-left: 300px;
+  background-color: #00ac78;
+}
+
+.mainPageTopSlogan {
+  padding-top: 20%;
+  padding-left: 85px;
+  padding-right: 130px;
+  text-align: left;
+  color: #ffffff;
+}
+
+.mainPageTopSlogan h1 {
+  font-weight: 400;
+  font-size: 49px;
+  margin-top: 10px;
+  margin-bottom: 15px;
 }
 
 .mainPageTopImg {
-    background: url(../../public/imgs/content/MainPageUpper.svg) no-repeat;
-    background: ;
+  background: url(../../public/imgs/content/MainPageUpper.svg) no-repeat;
+  background-position: center center;
+  background-size: cover;
 }
 
 .mainPageTopInfo {
-    position: absolute;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 40px;
+  width: 50%;
+  background-color: #efebde;
+
+  text-align: left;
+}
+
+.mainPageTopInfoItem {
+  width: 20%;
+  margin: 36px 15px;
+}
+
+.mainPageTopInfoItem:first-child {
+  width: 15%;
+}
+
+.housesTypes {
+  display: flex;
+}
+
+.housesTypesItem {
 }
